@@ -1,15 +1,15 @@
-<!-- Sanjay Parmar -->
+<!-- Navandeep Singh 1896509-->
 
 <html>
 <head>    
     <title>Book My Show</title>
         <link rel="stylesheet" type="text/css" href="CSS/myStyle.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="js/jsFile.js"></script>
+        <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script type="text/javascript" src="js/jsFile.js"></script>
 
         
 </head>
-<body>
+<body id="foodBody">
     
     <div class="announcement">
         <p class="announcement-message">WE'RE BACK. DUE TO PANDEMIC SOME THEATRES HAVE CHANGED TIMINGS. PLEASE CONTACT US IF YOU HAVE ANY QUESTIONS. </p>
@@ -25,69 +25,34 @@
                         <option value="French">FRENCH</option>
                     </select> -->
                 </li>
-                <li><a href="signup.html" >SIGNUP</a></li>
+                <li><a href="signup.html"  >SIGNUP</a></li>
                 <li><a href="Login.html" >LOG IN</a></li> 
                 <li><a href="contact.html">CONTACT</a> </li>
                 <li><a href="about.html">ABOUT US</a> </li>
-                <li><a href="index.html" class="active">HOME</a> 
+                <li><a href="index.html" >HOME</a> 
             </ul>
     </div>
 
     <div>
         <ul id="secondaryNavbar">
-            <li class="secondaryNavbar"><a id="logoText" href="movies.html">Movies</a></li>
-            <li class="secondaryNavbar"><a id="logoText" href="events.html">Events</a></li>
-            <li class="secondaryNavbar"><a id="logoText" href="food.html">Food & Drink</a></li>
+            <li class="secondaryNavbar"><a id="logoText" href="movies.html"  >Movies</a></li>
+            <li class="secondaryNavbar"><a id="logoText" href="events.html" class="active">Events</a></li>
+            <li class="secondaryNavbar"><a id="logoText" href="food.html" >Food & Drink</a></li>
             <li class="secondaryNavbar"><a id="logoText" href="quote.html">Get-a-Quote</a></li>
             <li class="secondaryNavbar"><a id="logoText" href="offers.html">Giftcards</a></li>
         </ul>
 </div>
 
-<h2 class="MainHead">YOUR FAVOURITE MOVIES</h2>
-<marquee onMouseover="stop()" onMouseout="start()" Scrollamount=10>
-<table id="moviesTable">
-    <tr class="moviesTr">
-        <td class="moviesTd">
-            <a href="payment.html" class="moviesLinkList"><img src="Assets/beauty.jpg" width="100%"></a>
-        </td>
-        <td class="moviesTd">
-            <a href="payment.html" class="moviesLinkList"><img src="Assets/jaws.jpg" width="100%"></a>
-        </td>
-        <td class="moviesTd">
-            <a href="payment.html" class="moviesLinkList"><img src="Assets/bohemian.jpg" width="100%"></a>
-        </td>
-        <td class="moviesTd">
-            <a href="payment.html" class="moviesLinkList"><img src="Assets/invisibleman.jpg" width="100%"></a>
-        </td>
-        <td class="moviesTd">
-            <a href="payment.html" class="moviesLinkList"><img src="Assets/jurassic.jpg" width="100%"></a>
-        </td>
-        
-    </tr>
 
+
+<div id="foodContainer">
+    <table id="foodTable">
     <tr>
-        <td class="moviesTdText">
-            <a href="payment.html" class="moviesLinkList">Beauty And The Beast</a>
-        </td>
-        <td class="moviesTdText">
-            <a href="payment.html" class="moviesLinkList">Jaws</a>
-        </td>
-        <td class="moviesTdText">
-            <a href="payment.html" class="moviesLinkList">Bohemian Rhapsody</a>
-        </td>
-        <td class="moviesTdText">
-            <a href="payment.html" class="moviesLinkList">The Invisible Man</a>
-        </td>
-        <td class="moviesTdText">
-            <a href="payment.html" class="moviesLinkList">Jurassic Park</a>
-        </td>
+        <td colspan="2" id="foodHead"><h2>Events</h2></td>
     </tr>
+</table>  
 
-</table>
-</marquee>
 
-<h2 class="MainHead">YOUR FAVOURITE EVENTS</h2>
-<marquee onMouseover="stop()" onMouseout="start()" Scrollamount=10 >
 <table id="moviesTable">
     <tr class="moviesTr">
         
@@ -103,12 +68,7 @@
         <td class="moviesTd">
             <a href="payment.html" class="moviesLinkList"><img src="Assets/andre.jpg" width="100%"></a>
         </td>
-        <td class="moviesTd">
-            <a href="payment.html" class="moviesLinkList"><img src="Assets/cyrano.jpg" width="100%"></a>
-        </td>
-        <td class="moviesTd">
-            <a href="payment.html" class="moviesLinkList"><img src="Assets/frida.jpg" width="100%"></a>
-        </td>
+        
     </tr>
 
     <tr>
@@ -125,55 +85,87 @@
         <td class="moviesTdText">
             <a href="payment.html" class="moviesLinkList">André Rieu's Magical Maastricht: Together In Music</a>
         </td>
+    </tr>
+
+    <tr>
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/cyrano.jpg" width="100%"></a>
+        </td>
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/frida.jpg" width="100%"></a>
+        </td>
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/gauguin.jpg" width="100%"></a>
+        </td>
+        
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/randomact.jpg" width="100%"></a>
+        </td>
+        
+    </tr>
+
+    <tr>
         <td class="moviesTdText">
             <a href="payment.html" class="moviesLinkList">Cyrano de Bergerac - National Theatre Live</a>
         </td>
         <td class="moviesTdText">
             <a href="payment.html" class="moviesLinkList">Frida Kahlo: Exhibition on Screen</a>
         </td>
+        <td class="moviesTdText">
+            <a href="payment.html" class="moviesLinkList">Gauguin from the National Gallery, London</a>
+        </td>
+        
+        <td class="moviesTdText">
+            <a href="payment.html" class="moviesLinkList">Random Acts of Violence</a>
+        </td>
+    </tr>
+
+    <tr>
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/porgy.jpg" width="100%"></a>
+        </td>
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/scoob.jpg" width="100%"></a>
+        </td>
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/kingofstaten.jpg" width="100%"></a>
+        </td>
+        <td class="moviesTd">
+            <a href="payment.html" class="moviesLinkList"><img src="Assets/starwars.jpg" width="100%"></a>
+        </td>
+        
+        
+    </tr>
+
+    <tr>
+        <td class="moviesTdText">
+            <a href="payment.html" class="moviesLinkList">The Gershwins’ Porgy and Bess English w/e.s.t. ENCORE – Metropolitan Opera</a>
+        </td>
+        <td class="moviesTdText">
+            <a href="payment.html" class="moviesLinkList">Scoob</a>
+        </td>
+        <td class="moviesTdText">
+            <a href="payment.html" class="moviesLinkList">The King of Staten Island: Home Premier</a>
+        </td>
+        <td class="moviesTdText">
+            <a href="payment.html" class="moviesLinkList">Star Wars: The Rise Of Skywalkers</a>
+        </td>
+        
     </tr>
 
 </table>
-</marquee>
 
 <table id="foodTable">
-    
-
     <tr>
-        <td class="tableTd">
+        <td colspan="2" id="foodHead">
+            <button class="active" >1</button>&nbsp;&nbsp;&nbsp;
+            <button class="moviesButton">2</button>&nbsp;&nbsp;&nbsp;
+            <button class="moviesButton">3</button>&nbsp;&nbsp;&nbsp;
             
-            <p class="mainPhototext"> We’re reopening our theatres in select regions and reopening more locations as government authorities tell us it’s safe to.
-                Take a look at our new health and safety procedures for what to expect when you visit us again.</p>
-        </td>
-        <td class="tableTd">
-            <img src="Assets/open.jpg" width="100%">
         </td>
     </tr>
-
-    <tr>
-        <td class="tableTd">
-            <img src="Assets/open3.jpg" width="100%" >
-        </td>
-        <td class="tableTd">
-            
-            <p class="mainPhototext"> For a limited time. enjoy discouted movie tickets, including IMAX, D-BOX, UltraAVX, and more*</p>
-        </td>
-    </tr>
-
-    <tr>
-        <td class="tableTd">
-            
-            <p class="mainPhototext">Your Cineplex Favourites are Available for Delivery and Curbside Pick-Up!</p>
-        </td>
-        <td class="tableTd">
-            <img src="Assets/open2.jpg" width="100%">
-        </td>
-    </tr>
-
-   
-</table> 
-
-  
+</table>  
+</div>
 
 
 
